@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'btn-custom': '#B68C5A',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <!-- header start here -->
+    <header class="container mx-auto">
+        <!-- nav start -->
+        <div class="navbar bg-base-100 my-12">
+            <div class="navbar-start">
+                <img src="resources/images/logo2.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+                      <a href="x">Services</a>
+                    </li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn bg-btn-custom">Free Consultation</a>
+            </div>
+        </div>
+        <!-- nav ends -->
+
+        <!-- banner section start -->
+        <div class="hero w-full bg-center rounded-lg " style="background-image: url(resources/images/banner.png);">
+            <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:max-w-[60%]">
+                <h1 class="mb-6 text-3xl mt-24 lg:text-7xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="mb-24 flex justify-center gap-3 lg:gap-6">
+                    <input class="lg:w-4/5 rounded-lg pl-5" type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
+                    <button class="btn bg-btn-custom lg:px-10 text-white border-none">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- banner section ends -->
+
+    </header>
+    <!-- header ends here -->
+
+    <!-- main start here -->
+    <main>
+
+    </main>
+    <!-- main ends here -->
+
+    <!-- footer start here -->
+    <footer>
+
+    </footer>
+    <!-- footer ends here -->
+</body>
+
+</html>
